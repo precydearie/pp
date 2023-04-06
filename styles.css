@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    
+    
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/precious/images/background.png'); 
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    overflow:hidden;
+}
+h2{
+    font-family: 'Alkatra', cursive;
+    color: black;
+    font-size: 15px;
+}
+.logo{
+
+    cursor: pointer;
+}
+.cart{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    float: left;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 0px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.content h1{
+    font-size: 70px;
+    font-weight: 100px;
+    margin-bottom: 15px;
+    color: #232d60;
+    margin-top: 7px;
+
+}
+.content p{
+  font-size: 20px;
+  color: #6a7199;  
+}
+.content{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.form{
+    margin: 10px; 
+}
+
+h3{
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: px;
+}
+
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg,#87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 228, blue,68, 0.15);
+    
+}
+.arrow-icons{
+    margin-top: 30px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+
+.feature-image{
+    height: 85%;
+    position: absolute;
+    bottom:0%;
+    right: 130px;
+    
+}
+.social-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+background-color: #333;
+    height: 40px;
+    margin: 0;
+}
+.social-links a{
+    text-decoration: none;
+    color: #6a7199;
+    font-size: 17px;
+}
+
+.social-links a:hover{
+    color: antiquewhite;
+    
+    
+}
+fieldset{
+   border: none;
+      margin-top:20px;
+    background-color: aliceblue;
+    margin-left: 0;
+ display: inline-block;
+ border-radius: 6px; 
+ border: none;
+
+}
+
+.input{
+    background-color: lightgray;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    color: #777;
+    transition: 0.3s;
+}
+
+    
+
+.margin{
+    margin-top: 8px;
+    
+
+}
+.contactus-button{
+    background-color: #232d60;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+transition: opacity 0.17s; }
+
+.contactus-button:hover{
+opacity: 0.7;
+}
+.contactus-button:active{
+opacity: 0.4;}
+
+@media only screen and (max-width:600px){
+   
+    .feature-image{
+        height: 35%;
+        left: 60px;
+        top: 70%;
+        width: 100%;
+    }
+    
+
+.content h1{
+    font-size: 35px;
+    margin-top: 40px;
+    color: #232d60;
+
+}
+.content p{
+  font-size: 20px;
+  color: #6a7199;  
+}
+
+fieldset{
+    margin-top: -45px;
+    margin-left: 15px;
+    
+ display: inline-block;
+ border-radius: 6px; 
+}
+.content{
+    margin-left: 1%;
+    margin-top: 2%;
+
+}
+h1{
+    font-size: 13px;
+
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 30px;
+    margin-right: 15px;
+}
+}
+
+
+@media only screen and (max-width:768px){
+.feature-image{
+    top: 40%;
+    width: 70%;
+    right: 150px;
+}
+.container{
+    background-size:cover;
+}
+.fieldset{
+    margin-top: 150px;
+}
+}
+@media only screen and (max-width:992px) {
+    .feature-image{
+        height: 35%;
+        top: 43%;
+        right: 50px;
+    }
+    .container{
+        background-size:cover;
+    }
+    .fieldset{
+        margin-top: 150px;
+    }
+    }
+  
+
+
+@media only screen and (min-width:1000px) and (max-width:1300px){
+
+    .feature-image{
+        height: 100%;
+        top: 24%;
+        right: 50px;
+    }
+    .container{
+        background-size:cover;
+    }
+    .fieldset{
+        margin-top: 70px;
+    }
+    }
+
+
